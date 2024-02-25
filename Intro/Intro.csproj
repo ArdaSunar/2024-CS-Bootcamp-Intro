@@ -10,9 +10,15 @@
   <ItemGroup>
     <None Remove="Entities\" />
     <None Remove="Business\" />
+    <None Remove="DataAccess\" />
+    <None Remove="DataAccess\Abstracts\" />
+    <None Remove="DataAccess\Concretes\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Business\" />
+    <Folder Include="DataAccess\" />
+    <Folder Include="DataAccess\Abstracts\" />
+    <Folder Include="DataAccess\Concretes\" />
   </ItemGroup>
 </Project>
